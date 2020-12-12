@@ -1,4 +1,25 @@
 body {
     background-color: #E8E8E0;
-    color: aqua;
+}
+.item {
+    background-color: lavender;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.date {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+.image {
+    display: block;
+}
+.title {
+    font-weight: bold;
+    display: block;
+}
+.description {
+    display: block;
 }
