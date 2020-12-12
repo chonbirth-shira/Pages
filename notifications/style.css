@@ -1,11 +1,12 @@
 body {
-    background-color: #E8E8E0;
+    background-color: #8d7686;
 }
 .item {
-    background-color: lavender;
+    color: ivory;
+    background-color: rgb(44, 31, 40);
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
 }
 .date {
