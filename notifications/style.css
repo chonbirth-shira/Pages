@@ -6,29 +6,24 @@
 body{
 	background-color: #272727;
 }
-h1{
-	text-align: center;
-	text-shadow: 1px 2px 2px #656565;
-}
-
-.html{
+.red{
 	background-color: #F35D2C;
 }
-.css{
+.blue{
 	background-color: #0092D1;
 }
-.js{
+.green{
 	background-color: #63BA07;
 }
 
 p.tag{
-	float: right;
 	top: 0px;
 	right: 0px;
 	margin:0px;
 	padding: 8px;
-	border-radius: 0px 5px 0px 5px;
-	box-shadow:  -2px 2px 5px 0px rgba(0,0,0,0.2);
+    text-align: center;
+	border-radius: 5px 5px 0px 0px;
+	box-shadow:  0px 2px 5px 0px rgba(0,0,0,0.2);
 }
 p.text{
 	padding:10px;
