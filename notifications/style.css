@@ -6,13 +6,13 @@
 body{
 	background-color: #272727;
 }
-.red{
+.alert{
 	background-color: #F35D2C;
 }
-.blue{
+.normal{
 	background-color: #0092D1;
 }
-.green{
+.gnews{
 	background-color: #63BA07;
 }
 
@@ -36,50 +36,4 @@ div div {
 	border-radius: 5px;
 	border: 1px solid black;
 	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.2);
-}
-/**Large Screen Size**/
-@media(min-width: 992px){
-	.col1-lg, .col2-lg, .col3-lg {
-		float: left;
-	}
-	
-    .col1-lg{
-    	width: 32.5%;
-    }
-    .col2-lg{
-    	width: 32.5%;
-    }
-    .col3-lg{
-    	width: 32.5%;
-    }
-    .row{
-		display: flex;
-	}
-	.html,.css,.js{
-		flex: 1;
-	}
-}
-/**Medium Screen Size**/
-@media(min-width: 768px) and (max-width: 991px){
-	.col1-md, .col2-md, .col3-md {
-		float: left;
-	}
-	.col1-md{
-		width: 48.6%;
-	}
-	.col2-md{
-		width: 48.6%
-	}
-	.col3-md{
-		width: 98.7%;
-	}
-}
-
-}
-/**Small Screen Size**/
-@media(max-width: 767px){
-	.col1-sm, .col2-sm, .col3-sm {
-		display: block;
-		width: 100%;
-	}
 }
